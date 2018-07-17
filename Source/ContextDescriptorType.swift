@@ -102,8 +102,8 @@ struct _ClassContextDescriptor: _ContextDescriptorProtocol {
     var mangledName: Int32
     var fieldTypesAccessor: Int32
     var superClsRef: Int32
-    var reservedWord1: Int32
-    var reservedWord2: Int32
+    var negativeSizeInWords: Int32
+    var positiveSizeInWords: Int32
     var numImmediateMembers: Int32
     var numberOfFields: Int32
     var fieldOffsetVector: Int32
